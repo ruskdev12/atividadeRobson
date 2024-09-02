@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova_Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nova_Tech</h1>
+        <input type="text" id="search" placeholder="Pesquisar classes de produto...">
+        <button onclick="searchProducts()">Pesquisar</button>
+
+
+        <nav>
+            <button onclick="window.location.href='login.html'">Login</button>
+            <button onclick="window.location.href='#sobre'">Sobre</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-selection">
+            <h2>Escolha seus Componentes</h2>
+
+            <div class="component">
+                <label for="gabinete">Gabinete:</label>
+                <select id="gabinete">
+                    <option value="nzxt-h510">NZXT H510</option>
+                    <option value="cooler-master-mb511">Cooler Master MB511</option>
+                    <option value="corsair-4000d">Corsair 4000D Airflow</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="placa-mae">Placa Mãe:</label>
+                <select id="placa-mae">
+                    <option value="asus-rog-strix-b550-f">ASUS ROG Strix B550-F Gaming</option>
+                    <option value="msi-mpg-b550-gaming-edge">MSI MPG B550 Gaming Edge WiFi</option>
+                    <option value="gigabyte-b550-aorus-elite">Gigabyte B550 Aorus Elite</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="processador">Processador:</label>
+                <select id="processador">
+                    <option value="ryzen-5-5600x">AMD Ryzen 5 5600X</option>
+                    <option value="intel-i5-11600k">Intel Core i5-11600K</option>
+                    <option value="ryzen-7-5800x">AMD Ryzen 7 5800X</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="water-cooler">Water Cooler:</label>
+                <select id="water-cooler">
+                    <option value="nzxt-kraken-x63">NZXT Kraken X63</option>
+                    <option value="corsair-icue-h100i">Corsair iCUE H100i</option>
+                    <option value="cooler-master-ml240l">Cooler Master MasterLiquid ML240L</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="sistema-operacional">Sistema Operacional:</label>
+                <select id="sistema-operacional">
+                    <option value="windows-10">Windows 10</option>
+                    <option value="windows-11">Windows 11</option>
+                    <option value="ubuntu">Ubuntu</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="memoria-ram">Memória RAM:</label>
+                <select id="memoria-ram">
+                    <option value="corsair-vengeance-lpx-8gb">Corsair Vengeance LPX 8GB (2x4GB) 3200MHz</option>
+                    <option value="gskill-ripjaws-16gb">G.Skill Ripjaws V 16GB (2x8GB) 3600MHz</option>
+                    <option value="kingston-fury-32gb">Kingston Fury Beast 32GB (2x16GB) 3200MHz</option>
+                </select>
+            </div>
+        </section>
+
+
+        <section id="sobre" class="about">
+            <h2>Sobre</h2>
+            <p>
+                O sistema desenvolvido para a empresa Nova_Tech, deve ter como objetivo mostrar ao usuário novos meios de comprar computadores com uma maior facilidade. Temos o intuito de mostrar ao usuário as melhores ofertas de gabinetes, PCs completos, e periféricos,
+                de acordo com o formulário de lead preenchido pelo usuário. Necessitamos de um site que chame a atenção do usuário para preencher as informações de compra do maior número de pessoas. Além disso, o site deverá comportar o máximo de clientes
+                e cadastros possíveis.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nova_Tech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
