@@ -1,0 +1,4 @@
+function searchProducts() {
+    const searchQuery = document.getElementById('search').value.toLowerCase();
+    alert(`Você pesquisou por: ${searchQuery}`);
+}
